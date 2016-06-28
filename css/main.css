@@ -30,6 +30,7 @@ h3 {
     text-transform: uppercase;
     color: #2a2a92;
     font-size: 1.75em;
+    margin: -20px 0 20px 0;
 }
 
 p {
@@ -89,4 +90,5 @@ nav ul li a:hover {
 main {
     background-color: #ffffff;
     max-width: 1000px;
+    padding: 10px 15px;
 }
