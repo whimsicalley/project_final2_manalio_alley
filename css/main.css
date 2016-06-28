@@ -1,0 +1,10 @@
+@font-face {
+    font-family: Alex;
+    src: url("../fonts/AlexBrush-Regular.ttf");
+}
+
+h1,
+h2 {
+    font-family: Alex;
+    font-size: 3em;
+}
