@@ -104,13 +104,13 @@ main img {
 /******** Button ********/
 
 .button {
-    padding: 10px 0;
+    display: inline;
+    padding: 0 10px 0 0;
 }
 
 .button a {
     border: 3px solid #ba553a;
     text-decoration: none;
-    font-weight: bold;
     padding: 10px 30px;
     color: #ba553a;
     letter-spacing: 1px;
@@ -119,8 +119,5 @@ main img {
 .button a:hover {
     border: 3px solid #f58c66;
     background-color: #f58c66;
-    text-decoration: none;
-    font-weight: bold;
-    padding: 10px 30px;
     color: white;
 }
