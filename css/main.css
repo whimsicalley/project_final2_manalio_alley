@@ -8,3 +8,11 @@ h2 {
     font-family: Alex;
     font-size: 3em;
 }
+h3 {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
