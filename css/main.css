@@ -47,6 +47,8 @@ p {
 
 .logo {
     max-width: 500px;
+    display: block;
+    margin: auto;
 }
 
 /******** Navigation ********/
