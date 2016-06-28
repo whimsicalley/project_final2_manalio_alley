@@ -19,13 +19,14 @@ body {
 }
 
 h1,
-h2 {
+h2,
+h3 {
     font-family: Alex;
     font-size: 3em;
     color: #ef4025;
 }
 
-h3 {
+h4 {
     font-family: "Roboto Condensed", sans-serif;
     text-transform: uppercase;
     color: #2a2a92;
