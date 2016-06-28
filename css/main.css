@@ -77,3 +77,10 @@ nav ul li a:hover {
     background-color: #f58c66;
     color: white;
 }
+
+/******** Main Content ********/
+
+main {
+    background-color: #ffffff;
+    max-width: 1000px;
+}
