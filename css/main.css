@@ -46,6 +46,10 @@ p {
 nav {
     font-family: "Roboto Condensed", sans-serif;
     text-transform: lowercase;
+    width: 100%;
+    background-color: #ba553a;
+    padding: 10px;
+    margin: 15px 0;
 }
 
 nav ul {
@@ -54,4 +58,18 @@ nav ul {
 
 nav ul li {
     display: inline;
+    padding: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 10px;
+    border: 2px #f58c66 solid;
+    color: #f58c66;
+}
+
+nav ul li a:hover {
+    padding: 10px;
+    background-color: #f58c66;
+    color: white;
 }
