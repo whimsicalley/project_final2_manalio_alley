@@ -18,11 +18,14 @@ h1,
 h2 {
     font-family: Alex;
     font-size: 3em;
+    color: #ef4025;
 }
 
 h3 {
     font-family: "Roboto Condensed", sans-serif;
     text-transform: uppercase;
+    color: #2a2a92;
+    font-size: 1.75em;
 }
 
 p {
