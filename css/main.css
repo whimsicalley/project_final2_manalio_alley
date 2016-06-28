@@ -93,3 +93,11 @@ main {
     max-width: 1000px;
     padding: 10px 15px;
 }
+
+main img {
+    max-width: 500px;
+    display: block;
+    border: 1px #666666 solid;
+    padding: 5px;
+    margin: auto;
+}
