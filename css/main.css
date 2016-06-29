@@ -49,6 +49,7 @@ p {
 
 .logo {
     max-width: 500px;
+    width: 100%;
     display: block;
     margin: auto;
 }
@@ -113,6 +114,7 @@ main img {
     border: 1px #666666 solid;
     padding: 5px;
     margin: auto;
+    width: 100%;
 }
 
 /******** Button ********/
