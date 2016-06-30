@@ -147,3 +147,37 @@ main img {
     background-color: #f58c66;
     color: white;
 }
+
+/******** Colors ********/
+
+.colors ul {
+    list-style-type: none;
+}
+
+.colors ul li {
+    display: inline-block;
+}
+
+.red {
+    width: 100px;
+    height: 100px;
+    background-color: #ef4025;
+}
+
+.blue {
+    width: 100px;
+    height: 100px;
+    background-color: #2a2a92;
+}
+
+.lightcopper {
+    width: 100px;
+    height: 100px;
+    background-color: #f58c66;
+}
+
+.darkcopper {
+    width: 100px;
+    height: 100px;
+    background-color: #ba553a;
+}
