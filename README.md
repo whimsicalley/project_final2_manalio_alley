@@ -29,3 +29,5 @@ Advanced Web 2. Due July 1, 2016
 ## Comments
 
 1. I think my spacing looks okay for the most part, but I was definitely having some margin problems where the margins of different elements were overtaking each other. I couldn't remember how to remedy this other than setting box-sizing to border-box. I think this was most obvious between the images and buttons, but the buttons in general were a pain. I tried everything I could think of to put more space between the end of the paragraph and the buttons but it's still a little close for my liking.
+
+2. On my color swatches, I noticed there is a ~40px of padding coming from my <ul> tag, throwing my list slightly to the right. I tried for what seemed like eternity to figure out where it was coming from, but I can't! Please let me know.
