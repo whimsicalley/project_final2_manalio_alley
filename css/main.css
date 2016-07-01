@@ -115,15 +115,10 @@ article {
     padding: 1em;
 }
 
-.image {
-    display: inline;
-}
-
 main img {
     max-width: 400px;
     border: 1px #666666 solid;
-    padding: 5px;
-    margin: auto;
+    padding: 0.3em;
     width: 100%;
 }
 
