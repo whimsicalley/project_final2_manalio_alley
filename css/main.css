@@ -76,6 +76,7 @@ a:hover {
 
 .headerwrapper {
     width: 100%;
+    margin-top: 1em;
 }
 
 .wrapper {
@@ -98,7 +99,7 @@ main {
     background-color: #ffffff;
     max-width: 1000px;
     padding: 10px 15px;
-    margin-bottom: 40px;
+    margin: 40px 0;
 }
 
 section {
