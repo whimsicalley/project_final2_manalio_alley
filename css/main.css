@@ -58,6 +58,8 @@ p {
     line-height: 1.5;
 }
 
+/******** Links ********/
+
 a {
     color: #ef4025;
     text-decoration: none;
@@ -70,6 +72,8 @@ a:hover {
     border-bottom: 3px solid #ba553a;
 }
 
+/******** Wrappers ********/
+
 .headerwrapper {
     width: 100%;
 }
@@ -78,6 +82,8 @@ a:hover {
     max-width: 1000px;
     margin: auto;
 }
+
+/******** Logo ********/
 
 .logo {
     max-width: 500px;
