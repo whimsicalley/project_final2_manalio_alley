@@ -171,10 +171,11 @@ main img {
     background-color: #ef4025;
 }
 
-.blue {
+.darkcopper {
     width: 100px;
     height: 100px;
-    background-color: #2a2a92;
+    background-color: #ba553a;
+    margin-right: 1em;
 }
 
 .lightcopper {
@@ -184,9 +185,8 @@ main img {
     margin-right: 1em;
 }
 
-.darkcopper {
+.blue {
     width: 100px;
     height: 100px;
-    background-color: #ba553a;
-    margin-right: 1em;
+    background-color: #2a2a92;
 }
