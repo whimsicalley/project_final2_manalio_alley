@@ -112,11 +112,10 @@ section {
 }
 
 article {
-    padding: 10px;
+    padding: 1em;
 }
 
 .image {
-    margin-top: 30px;
     display: inline;
 }
 
@@ -132,7 +131,10 @@ main img {
 
 .button {
     display: inline;
-    padding: 0 10px 0 0;
+}
+
+.button + .button {
+    padding-left: 1.5em;
 }
 
 .button a {
