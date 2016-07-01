@@ -206,9 +206,9 @@ section ul {
 .darkcopper,
 .lightcopper,
 .blue {
-    width: 10em;
-    min-height: 10em;
-    margin-top: 1em;
+    width: 9em;
+    min-height: 9em;
+    margin: 0.5em;
 }
 
 .red {
@@ -217,7 +217,6 @@ section ul {
 
 .darkcopper {
     background-color: #ba553a;
-    margin-left: 1em;
 }
 
 .lightcopper {
@@ -226,10 +225,24 @@ section ul {
 
 .blue {
     background-color: #2a2a92;
-    margin-left: 1em;
 }
 
-@media all and (min-width: 675px) {
+@media all and (min-width: 600px) {
+    .colors {
+        max-width: 700px;
+        width: 100%;
+    }
+    .red,
+    .darkcopper,
+    .lightcopper,
+    .blue {
+        width: 7em;
+        min-height: 7em;
+        margin: 0.3em;
+    }
+}
+
+@media all and (min-width: 850px) {
     .colors {
         max-width: 650px;
     }
@@ -240,8 +253,19 @@ section ul {
         width: 8.5em;
         min-height: 8.5em;
     }
-    .lightcopper {
-        margin-left: 1em;
+}
+
+@media all and (min-width: 1100px) {
+    .colors {
+        max-width: 800px;
+    }
+    .red,
+    .darkcopper,
+    .lightcopper,
+    .blue {
+        width: 10em;
+        min-height: 10em;
+        margin: 0.5em;
     }
 }
 
