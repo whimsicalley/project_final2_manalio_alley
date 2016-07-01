@@ -233,14 +233,14 @@ section ul {
 
 @media all and (min-width: 675px) {
     .colors {
-        max-width: 600px;
+        max-width: 650px;
     }
     .red,
     .darkcopper,
     .lightcopper,
     .blue {
-        width: 7em;
-        min-height: 7em;
+        width: 8.5em;
+        min-height: 8.5em;
     }
     .lightcopper {
         margin-left: 1em;
