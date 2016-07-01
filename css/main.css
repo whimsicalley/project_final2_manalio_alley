@@ -187,8 +187,12 @@ section + section {
 
 /******** Colors ********/
 
+section ul {
+    text-align: center;
+}
+
 .colors {
-    max-width: 600px;
+    max-width: 500px;
     margin: auto;
 }
 
@@ -210,31 +214,36 @@ section + section {
 }
 
 .red {
-    margin-right: 1em;
     background-color: #ef4025;
 }
 
 .darkcopper {
     background-color: #ba553a;
-    margin-right: 1em;
+    margin-left: 1em;
 }
 
 .lightcopper {
     background-color: #f58c66;
-    margin-right: 1em;
 }
 
 .blue {
     background-color: #2a2a92;
+    margin-left: 1em;
 }
 
 @media all and (min-width: 675px) {
+    .colors {
+        max-width: 600px;
+    }
     .red,
     .darkcopper,
     .lightcopper,
     .blue {
         width: 7em;
         min-height: 7em;
+    }
+    .lightcopper {
+        margin-left: 1em;
     }
 }
 
