@@ -6,7 +6,7 @@ Advanced Web 2. Due July 1, 2016
 
 * [Original Repo](https://github.com/richardkalehoff/UF-starter-project)
 
-* [Live site]()
+* [Live site](http://alleymanalio.com/project_final2_manalio_alley/)
 
 ## Resources
 
