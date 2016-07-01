@@ -140,7 +140,7 @@ main img {
 .button a {
     border: 3px solid #ba553a;
     text-decoration: none;
-    padding: 10px 30px;
+    padding: 0.6em 2em;
     color: #ba553a;
     letter-spacing: 1px;
 }
