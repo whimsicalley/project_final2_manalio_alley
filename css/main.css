@@ -91,6 +91,7 @@ a:hover {
     width: 100%;
     display: block;
     margin: auto;
+    padding: 0 0.5em;
 }
 
 /******** Main Content ********/
