@@ -39,13 +39,15 @@ body {
 
 h3 {
     font-family: Alex;
-    font-size: 3em;
+    font-size: 4em;
     color: #ef4025;
     text-align: center;
+    margin-top: 0;
 }
 
 @media all and (min-width: 600px) {
     h3 {
+        font-size: 3em;
         text-align: left;
     }
 }
