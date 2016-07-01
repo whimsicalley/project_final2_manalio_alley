@@ -151,6 +151,11 @@ main img {
 
 /******** Colors ********/
 
+.colors {
+    max-width: 600px;
+    margin: auto;
+}
+
 .colors ul {
     list-style-type: none;
 }
@@ -160,8 +165,9 @@ main img {
 }
 
 .red {
-    width: 100px;
-    height: 100px;
+    width: 7em;
+    min-height: 7em;
+    margin-right: 1em;
     background-color: #ef4025;
 }
 
@@ -175,10 +181,12 @@ main img {
     width: 100px;
     height: 100px;
     background-color: #f58c66;
+    margin-right: 1em;
 }
 
 .darkcopper {
     width: 100px;
     height: 100px;
     background-color: #ba553a;
+    margin-right: 1em;
 }
