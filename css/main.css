@@ -43,11 +43,12 @@ h3 {
     font-family: Alex;
     font-size: 3em;
     color: #ef4025;
+    text-align: center;
 }
 
-@media all and (max-width: 675px) {
+@media all and (min-width: 600px) {
     h3 {
-        text-align: center;
+        text-align: left;
     }
 }
 
@@ -203,8 +204,8 @@ section + section {
 .darkcopper,
 .lightcopper,
 .blue {
-    width: 7em;
-    min-height: 7em;
+    width: 10em;
+    min-height: 10em;
     margin-top: 1em;
 }
 
@@ -227,14 +228,13 @@ section + section {
     background-color: #2a2a92;
 }
 
-@media all and (max-width: 675px) {
+@media all and (min-width: 675px) {
     .red,
     .darkcopper,
     .lightcopper,
     .blue {
-        width: 10em;
-        min-height: 10em;
-        margin-top: 1em;
+        width: 7em;
+        min-height: 7em;
     }
 }
 
@@ -242,24 +242,24 @@ section + section {
 
 #top,
 #bottom {
-    background: #ef4025;
-    position: fixed;
-    left: 0;
-    right: 0;
-    height: 10px;
+    background: none;
 }
 
-#top {
-    top: 0;
-}
-
-#bottom {
-    bottom: 0;
-}
-
-@media all and (max-width: 1100px) {
+@media all and (min-width: 1100px) {
     #top,
     #bottom {
-        background: none;
+        background: #ef4025;
+        position: fixed;
+        left: 0;
+        right: 0;
+        height: 10px;
+    }
+
+    #top {
+        top: 0;
+    }
+
+    #bottom {
+        bottom: 0;
     }
 }
