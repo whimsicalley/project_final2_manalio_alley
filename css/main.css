@@ -138,11 +138,12 @@ section {
     margin: auto;
 }
 
-article {
-    padding: 1em;
+.image {
+    margin-top: 1em;
 }
 
 main img {
+    margin-top: 0.5em;
     max-width: 400px;
     border: 1px #666666 solid;
     padding: 0.3em;
