@@ -118,8 +118,12 @@ section + section {
     padding-top: 2em;
 }
 
-article img {
-    margin-top: 0.5em;
+.images {
+    width: 80%;
+    margin: auto;
+}
+
+.images article img {
     max-width: 500px;
     border: 1px #666666 solid;
     padding: 0.3em;
@@ -131,6 +135,29 @@ article img {
     max-width: 500px;
     width: 100%;
     margin: auto;
+}
+
+@media all and (min-width: 600px) {
+    .images article img {
+        max-width: 600px;
+        border: 1px #666666 solid;
+        padding: 0.3em;
+        width: 100%;
+    }
+}
+
+@media all and (min-width: 1000px) {
+    .images article img {
+        max-width: 375px;
+        border: 1px #666666 solid;
+        padding: 0.3em;
+        float: left;
+        width: 50%;
+        margin-top: 1em;
+    }
+    .rightimg {
+        margin-left: 10px;
+    }
 }
 
 /******** Button ********/
