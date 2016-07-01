@@ -21,3 +21,7 @@ Advanced Web 2. Due July 1, 2016
 * [Increase gap between text and underline](http://stackoverflow.com/questions/1734618/how-to-increase-the-gap-between-text-and-underlining-in-css)
 
     I still wasn't entirely satisfied with the look of the border bottom, so I was happy to find this article about simply adding a padding-bottom. It made a surprisingly nice difference.
+
+## Comments
+
+1. I think my spacing looks okay for the most part, but I was definitely having some margin problems where the margins of different elements were overtaking each other. I couldn't remember how to remedy this other than setting box-sizing to border-box. I think this was most obvious between the images and buttons, but the buttons in general were a pain. I tried everything I could think of to put more space between the end of the paragraph and the buttons but it's still a little close for my liking.
