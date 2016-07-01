@@ -109,19 +109,17 @@ section {
     margin: auto;
 }
 
-.image {
-    margin-top: 1em;
-}
-
 article img {
     margin-top: 0.5em;
-    max-width: 400px;
+    max-width: 500px;
     border: 1px #666666 solid;
     padding: 0.3em;
     width: 100%;
 }
 
 .bowtie {
+    padding-top: 1em;
+    display: block;
     max-width: 500px;
     width: 100%;
     margin: auto;
