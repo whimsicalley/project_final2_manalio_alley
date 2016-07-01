@@ -170,7 +170,12 @@ section + section {
 
 /******** Button ********/
 
+.buttonwrapper {
+    padding-top: 1em;
+}
+
 .button {
+    padding-top: 1em;
     display: inline;
 }
 
