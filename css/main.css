@@ -49,6 +49,18 @@ p {
     line-height: 1.5;
 }
 
+a {
+    color: #ef4025;
+    text-decoration: none;
+    border-bottom: 1px solid #ef4025;
+    padding-bottom: 1px;
+}
+
+a:hover {
+    color: #ba553a;
+    border-bottom: 1px solid #ba553a;
+}
+
 .headerwrapper {
     width: 100%;
 }
