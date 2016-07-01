@@ -207,3 +207,29 @@ article img {
         margin-top: 1em;
     }
 }
+
+/******** Full-width Colors ********/
+
+#top,
+#bottom {
+    background: #ef4025;
+    position: fixed;
+    left: 0;
+    right: 0;
+    height: 10px;
+}
+
+#top {
+    top: 0;
+}
+
+#bottom {
+    bottom: 0;
+}
+
+@media all and (max-width: 1100px) {
+    #top,
+    #bottom {
+        background: none;
+    }
+}
