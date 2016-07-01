@@ -43,7 +43,12 @@ h3 {
     font-family: Alex;
     font-size: 3em;
     color: #ef4025;
-    text-align: center;
+}
+
+@media all and (max-width: 675px) {
+    h3 {
+        text-align: center;
+    }
 }
 
 h4 {
@@ -190,4 +195,15 @@ article img {
 
 .blue {
     background-color: #2a2a92;
+}
+
+@media all and (max-width: 675px) {
+    .red,
+    .darkcopper,
+    .lightcopper,
+    .blue {
+        width: 10em;
+        min-height: 10em;
+        margin-top: 1em;
+    }
 }
