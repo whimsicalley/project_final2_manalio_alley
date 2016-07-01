@@ -114,6 +114,10 @@ section {
     margin: auto;
 }
 
+section + section {
+    padding-top: 2em;
+}
+
 article img {
     margin-top: 0.5em;
     max-width: 500px;
@@ -123,7 +127,6 @@ article img {
 }
 
 .bowtie {
-    padding-top: 1em;
     display: block;
     max-width: 500px;
     width: 100%;
