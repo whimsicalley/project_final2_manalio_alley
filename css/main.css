@@ -172,11 +172,12 @@ section + section {
 
 .buttonwrapper {
     padding-top: 1em;
+    display: inline-block;
 }
 
 .button {
     padding-top: 1em;
-    display: inline;
+    display: inline-block;
 }
 
 .button + .button {
