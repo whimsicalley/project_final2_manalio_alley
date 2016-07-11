@@ -37,6 +37,12 @@ body {
     width: 1px;
 }
 
+.group::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
 h3 {
     font-family: Alex;
     font-size: 4em;
